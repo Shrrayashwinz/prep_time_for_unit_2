@@ -20,17 +20,11 @@ else:
 """
 
 class Cat:
-    def __init__(self, name, color, eyes):
+    def __init__(self, name, color):
         self.name = name
         self.color = color
-        self.eyes = eyes
-    
-    def description(self):
-        print("The cat's name is", self.name, ". The color is", self.color, "with", self.eyes, "eyes.")
 
-myPetCat = Cat("Whiskers", "black", "green")
-myPetCat.description()
+myPetCat = Cat("Whiskers", "Silver-Gray")
 
-print(myPetCat)
-print(myPetCat.name, myPetCat.color, myPetCat.eyes)
+print("Name:", myPetCat.name, "||  Color:", myPetCat.color)
 

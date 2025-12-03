@@ -32,5 +32,4 @@ myPetCat = Cat("Whiskers", "black", "green")
 myPetCat.description()
 
 print(myPetCat)
-print(myPetCat.name, myPetCat.color, myPetCat.eyes)
 

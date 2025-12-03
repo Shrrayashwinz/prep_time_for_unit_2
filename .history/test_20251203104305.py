@@ -24,13 +24,9 @@ class Cat:
         self.name = name
         self.color = color
         self.eyes = eyes
-    
-    def description(self):
-        print("The cat's name is", self.name, ". The color is", self.color, "with", self.eyes, "eyes.")
 
-myPetCat = Cat("Whiskers", "black", "green")
-myPetCat.description()
+myPetCat = Cat("Whiskers", "Tabby", "Green")
 
-print(myPetCat)
-print(myPetCat.name, myPetCat.color, myPetCat.eyes)
+def welcome_new_cat(self):
+    print(myPetCat)
 
