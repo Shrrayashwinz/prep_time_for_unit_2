@@ -26,6 +26,6 @@ class Cat:
 
 myPetCat = Cat("Whiskers", "Silver and Gray")
 
-print(myPetCat. name, myPetCat.color)
+print(myPetCat)
 
 

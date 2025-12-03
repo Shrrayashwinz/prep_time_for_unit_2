@@ -5,7 +5,6 @@
 # func1(number_1 = 777, number_2 = 95)
 
 # Predict output or debug:
-"""
 a = int(input("Enter a number: "))
 b = int(input("Enter a number: "))
 c = int(input("Enter a number: "))
@@ -17,15 +16,6 @@ if a == b == c:
     
 else:
     print((a + b + c))
-"""
-
-class Cat:
-    def __init__(self, name, color):
-        self.name = name
-        self.color = color
-
-myPetCat = Cat("Whiskers", "Silver and Gray")
-
-print(myPetCat. name, myPetCat.color)
+    
 
 
