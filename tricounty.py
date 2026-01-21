@@ -1,4 +1,5 @@
 # Define the Student class
+
 class Student:
     def __init__(self, name, age, grade):
         self.name = name  # Set the name attribute
@@ -16,3 +17,6 @@ student1 = Student("Alice", 21, 10)
 student1.introduce()
 
 print(student1)  # Output the name attribute
+
+
+
