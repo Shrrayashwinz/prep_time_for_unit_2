@@ -1,5 +1,13 @@
+import copy
+
 c = [4,5,6,7,8,9,10]
 
 c[2] = 5
 
+b = copy.deepcopy(c)
+
+b.append(1074)
+
 print(c)
+
+print(b)
